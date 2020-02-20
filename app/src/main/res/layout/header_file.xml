@@ -19,9 +19,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
+        android:textColor="#000"
         android:textStyle="bold"
         android:text="Android Developer"/>
     <TextView
+        android:textColor="#7E7979"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="android developer"

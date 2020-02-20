@@ -36,49 +36,25 @@ navigationView = findViewById(R.id.nav_view);
 navigationView.setNavigationItemSelectedListener(this);
 	}
 
-
-
-
-
 	@Override
 	public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
 		switch (item.getItemId()) {
-
-
 			case R.id.camera:
-
-				Toast.makeText(MainActivity.this, "camera", Toast.LENGTH_SHORT).show();
-
+				Toast.makeText(this, "camera", Toast.LENGTH_SHORT).show();
 				break;
-
-
 			case R.id.comment:
-
-				Toast.makeText(MainActivity.this, "comment", Toast.LENGTH_SHORT).show();
-
+				Toast.makeText(this, "comment", Toast.LENGTH_SHORT).show();
 				break;
-
-
 			case R.id.lock:
-
-				Toast.makeText(MainActivity.this, "power", Toast.LENGTH_SHORT).show();
-
+				Toast.makeText(this, "power", Toast.LENGTH_SHORT).show();
 				break;
-
 			case R.id.search:
-
-				Toast.makeText(MainActivity.this, "search", Toast.LENGTH_SHORT).show();
-
+				Toast.makeText(this, "search", Toast.LENGTH_SHORT).show();
 				break;
-
-
 			case R.id.notification:
-
-				Toast.makeText(MainActivity.this, "notification", Toast.LENGTH_SHORT).show();
-
+				Toast.makeText(this, "notification", Toast.LENGTH_SHORT).show();
 				break;
-
 		}
 		DrawerLayout drawer = findViewById(R.id.activity_main);
 		drawer.closeDrawer(GravityCompat.START);
