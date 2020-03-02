@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:layout_marginTop="60dp"
+    android:layout_margin="50dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark"
     >
 
     <ImageView
@@ -16,17 +15,13 @@
         app:srcCompat="@mipmap/ic_launcher_round"
         />
     <TextView
+
+        android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textColor="#000"
         android:textStyle="bold"
         android:text="Android Developer"/>
-    <TextView
-        android:textColor="#7E7979"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="android developer"
-        />
 
 </LinearLayout>

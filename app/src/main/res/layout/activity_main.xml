@@ -9,23 +9,26 @@
     tools:openDrawer="start"
     android:fitsSystemWindows="true">
 
-
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="wrap_content">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbars"
             android:layout_width="match_parent"
-            android:background="@color/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            android:layout_height="?attr/actionBarSize"
+            android:background="#EA6C6C"
+            android:layout_height="wrap_content"
             />
     </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/main_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
@@ -33,6 +36,6 @@
         app:menu="@menu/menu"
         />
 
-    <include layout="@layout/main_layout" />
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
