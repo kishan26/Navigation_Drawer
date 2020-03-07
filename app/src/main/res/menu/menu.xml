@@ -5,4 +5,12 @@
     <item android:id="@+id/notification" android:title="Notificaton" android:icon="@drawable/ic_notifications_black_24dp"/>
    <item android:id="@+id/search" android:title="search" android:icon="@drawable/ic_search_black_24dp"/>
     <item android:id="@+id/comment" android:title="comment" android:icon="@drawable/ic_mode_comment_black_24dp"/>
+    <item android:id="@+id/cameras" android:title="camera" android:icon="@drawable/ic_camera_alt_black_24dp"/>
+    <item android:id="@+id/history" android:title="history" android:icon="@drawable/ic_change_history_black_24dp"/>
+    <item android:id="@+id/collection" android:title="collection" android:icon="@drawable/ic_collections_black_24dp"/>
+    <item android:id="@+id/down" android:title="Download" android:icon="@drawable/ic_arrow_downward_black_24dp"/>
+    <item android:id="@+id/camerav" android:title="camera" android:icon="@drawable/ic_camera_enhance_black_24dp"/>
+    <item android:id="@+id/mail" android:title="email" android:icon="@drawable/ic_contact_mail_black_24dp"/>
+    <item android:id="@+id/event" android:title="event" android:icon="@drawable/ic_event_available_black_24dp"/>
+    <item android:id="@+id/insertphoto" android:title="insertP" android:icon="@drawable/ic_insert_photo_black_24dp"/>
 </menu>
